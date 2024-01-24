@@ -1,0 +1,32 @@
+flow of the app
+
+signup page
+  user signs up
+  navigate to dashbaord
+
+dashboard page
+  list of campaigns
+  create a new campaign
+
+create new campoaign module
+  create a campaign
+  navigate to campaign page
+code to embed in ur website
+
+
+camoaign page
+  list of emials
+  list of subscribers
+  defauklt welcome email ready to send
+  create a new email
+  navuighate to create email page
+  after its created send it to all subscribers
+
+create email page
+  hard code html
+  builder
+    heading
+paragraph
+link
+later => photo
+    
