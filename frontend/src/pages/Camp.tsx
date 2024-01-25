@@ -7,6 +7,7 @@ const Camp = () => {
         <div>
             <h2>welcome email</h2>
             <p>this is email you send to a new subscriber</p>
+            <span>hahhhhha</span>
             <button>view</button>
         </div>
         <div className="emails">
