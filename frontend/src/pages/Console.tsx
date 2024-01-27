@@ -1,33 +1,34 @@
-import React from 'react'
-import '../styles/console.css'
-
-const camps = [
-  {
-    id: 'uuuidqqq',
-    name: 'one'
-  },
-  {
-    id: 'heeiei',
-    name: 'two'
-  },
-  {
-    id: 'eldldld',
-    name: 'three'
-  }
-]
+import "../styles/console.scss";
+import { Link } from "react-router-dom";
 
 const Console = () => {
   return (
     <div className="console">
-      <div className="console-nav">
-        <button>create</button>
+      <div className="box">
+        <div className="top">
+          <h1>AUDIENCES</h1>
+        </div>
+        <div className="content">
+          <p>Get subscribers to send campaigns to</p>
+        </div>
+        <div className="bottom">
+          <Link to="/">VIEW</Link>
+        </div>
       </div>
-      <div className="campaigns">
-        <p>campaign1</p>
-        <p>campaign2</p>
+      <div className="box">
+        <div className="top">
+          <h1>CAMPAIGNS</h1>
+        </div>
+        <div className="content">
+          <p>Content you send to users</p>
+          <p>Email, SMS and Landing Page Campaigns</p>
+        </div>
+        <div className="bottom">
+          <Link to="/console/sshhs/campaigns">VIEW</Link>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Console
+export default Console;

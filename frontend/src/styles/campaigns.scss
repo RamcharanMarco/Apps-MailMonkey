@@ -1,0 +1,54 @@
+.campaigns{
+    height: 90vh;
+    background-color: brown;
+}
+
+.campaigns .heading{
+    text-align: center;
+}
+
+.campaigns-search{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.campaigns-search input{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.campaigns-search div{
+    display: flex;
+    gap: 10px;
+}
+
+.campaigns .container{
+    width: 100%;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.campaigns .container .box{
+    border: 1px solid black;
+    padding:10px 20px;
+    width: 70%;
+    background-color: white;
+}
+
+.campaigns .container .box h1{
+    font-size: 20px;
+}
+
+.campaigns .container .box p{
+    font-size: 12px;
+}

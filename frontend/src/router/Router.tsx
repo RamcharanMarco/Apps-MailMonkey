@@ -7,6 +7,7 @@ import Console from "../pages/Console";
 import MainLayout from "../components/Layouts/MainLayout";
 import UserLayout from "../components/Layouts/UserLayout";
 import Camp from "../pages/Camp";
+import Campaigns from "../pages/Campaigns";
 
 const Router = () => {
   return (
@@ -22,6 +23,7 @@ const Router = () => {
         {/* user layout */}
         <Route path="/console/:id/" element={<UserLayout />}>
           <Route index element={<Console />}></Route>
+          <Route path='campaigns' element={<Campaigns />}></Route>
           <Route path="camp/:id" element={<Camp />}></Route>
         </Route>
       </Routes>

@@ -1,0 +1,9 @@
+.email-modal{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    z-index: 500;
+}
