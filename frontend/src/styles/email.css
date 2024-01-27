@@ -1,0 +1,39 @@
+.email{
+    min-height: 90vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.email-heading{
+    text-align: center;
+}
+
+.email .navbar{
+    background-color: burlywood;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email .container{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email .container .box{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.email .container .box div{
+    display: flex;
+    flex-direction: column;
+}
